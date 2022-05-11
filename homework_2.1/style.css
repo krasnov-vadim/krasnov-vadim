@@ -1,0 +1,53 @@
+header {
+  background-color: rgba(231, 231, 241, 0.705);
+  text-align: center;
+  position: sticky;
+  top: 10px;
+  /* margin: auto; */
+}
+.box {
+  position: sticky; 
+  /* залипает если задать , до какого момента. в данном случае 10 пикселей сверху */
+  top: 10px;
+  text-align: left;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* position: relative;
+    position: sticky;
+    top: 50px; */
+}
+.card {
+    box-shadow: 12px 8px 12px 12px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    /* margin: auto; */
+    text-align: center;
+ 
+       /* height: 125px; */
+   } 
+    
+    
+  
+  
+  .price {
+    color: grey;
+    font-size: 30px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(105, 13, 224);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
